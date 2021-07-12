@@ -1,14 +1,14 @@
 <?php
-    include('Autoload.php')
+    include('Autoload.php');
 
     if (isset($_GET['class'])&& isset ($_GET['method']))
     {
         $class = $_GET['class'];
-        $method = $_GET['class'];
+        $method = $_GET['method'];
     }
     else
     {
-        $class = "Home"
+        $class = "Home";
         $method = "Inicio";
     }
 
