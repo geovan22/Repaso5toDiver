@@ -1,6 +1,5 @@
-<?php 
 <?php
-   function casgadorClase($class)
+   function CargadorClase($class)
    {
      if(is_file('/'.$class.'.ARCHIVO.php'))
      {
